@@ -9,3 +9,9 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 import Cocoa
 
 var str = "Hello, playground"
+// Learning about variables
+
+var str = "Hello Darknees my old friend" // This is  a string
+var str: String = "Hi" // This is also a string
+
+
