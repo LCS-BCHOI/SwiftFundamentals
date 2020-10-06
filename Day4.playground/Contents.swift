@@ -10,3 +10,21 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 import Cocoa
 
 var str = "Hello, playground"
+let count = 1...10
+
+// This is a for loop
+for _ in 0...count{
+    print("Hello Darkness my old friend")
+}
+
+// this is a while loop
+var loops = 10
+while true{
+    print("Hello Darkness my old friend")
+    loops += 1
+    if loops == 20{
+        break
+    }
+}
+
+ç
