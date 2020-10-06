@@ -29,6 +29,9 @@ class Dog2 {
     func makeNoise() {
         print("Ho HO HO")
     }
+    func boscolikespie(){
+        print("I like pie")
+    }
     
     func cool_stuff(){
         print("Hello Darkness my old friend")
