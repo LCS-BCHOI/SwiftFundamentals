@@ -10,3 +10,27 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 import Cocoa
 
 var str = "Hello, playground"
+
+zclass Dog {
+    var name: String
+    var breed: String
+
+    init(name: String, breed: String) {
+        self.name = name
+        self.breed = breed
+    }
+}
+let poppy = Dog(name: "Poppy", breed: "Poodle")
+
+
+// Example of stuff and class
+
+class Dog2 {
+    func makeNoise() {
+        print("Ho HO HO")
+    }
+    
+    func cool_stuff(){
+        print("Hello Darkness my old friend")
+    }
+}
