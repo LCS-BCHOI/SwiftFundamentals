@@ -10,3 +10,20 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 import Cocoa
 
 var str = "Hello, playground"
+
+// This is a closures
+let hi = {
+    print("Hi")
+}
+
+helloworld()
+
+// Passing closures to function and resturn a string
+let helloname = { (name: String) -> String in
+    return "Hello \(name)"
+}
+
+print(helloname("Bosco"))
+
+
+
