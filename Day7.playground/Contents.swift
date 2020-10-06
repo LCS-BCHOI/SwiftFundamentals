@@ -9,4 +9,26 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 
 import Cocoa
 
-var str = "Hello, playground"
+func travel(action: (String) -> String) {
+    print("I'm getting ready to go.")
+    let description = action("London")
+    print(description)
+    print("I arrived!")
+}
+
+// Advance clousers
+travel { (place: String) -> String in
+    return "I'm going to \(place) in my car"
+}
+
+// with more than one perms
+travel {
+    "I'm going to \($0) at \($1) miles per hour."
+}
+
+// function that returns a closures
+func travel() -> (String) -> Void {
+    return {
+        print("I'm going to \($0)")
+    }
+}
